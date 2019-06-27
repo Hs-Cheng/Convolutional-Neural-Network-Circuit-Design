@@ -16,5 +16,5 @@ simulation, there will be lots of glitch suppression warnings. But that is accep
 ![Core area and total area of the chip needed.](area.png)
 
 # 4. System Structure
-![Figure1](system_structure1)
-![Figure2](system_structure2)
+![Figure1](system_structure1.png)
+![Figure2](system_structure2.png)
