@@ -12,9 +12,13 @@ are the area report and the simulation result.
 # 3. Transistor level simulation
 Our CONV_APR.v can pass the simulation under a clock cycle of 10.7ns. During
 simulation, there will be lots of glitch suppression warnings. But that is acceptable during transistor level simulation. The following are the simulation result and the core area report.
+
+
 ![Simulation result and the simulation time needed.](time.png)
 ![Core area and total area of the chip needed.](area.png)
 
 # 4. System Structure
+
 ![Figure1](system_structure1.png)
+
 ![Figure2](system_structure2.png)
