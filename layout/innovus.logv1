@@ -1,0 +1,74 @@
+[06/22 15:23:18      0s] 
+[06/22 15:23:18      0s] Cadence Innovus(TM) Implementation System.
+[06/22 15:23:18      0s] Copyright 2017 Cadence Design Systems, Inc. All rights reserved worldwide.
+[06/22 15:23:18      0s] 
+[06/22 15:23:18      0s] Version:	v17.11-s080_1, built Fri Aug 4 11:13:11 PDT 2017
+[06/22 15:23:18      0s] Options:	
+[06/22 15:23:18      0s] Date:		Sat Jun 22 15:23:18 2019
+[06/22 15:23:18      0s] Host:		cad29 (x86_64 w/Linux 2.6.32-754.el6.x86_64) (10cores*40cpus*Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz 25600KB)
+[06/22 15:23:18      0s] OS:		CentOS release 6.10 (Final)
+[06/22 15:23:18      0s] 
+[06/22 15:23:18      0s] License:
+[06/22 15:23:18      0s] 		invs	Innovus Implementation System	17.1	checkout succeeded
+[06/22 15:23:18      0s] 		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+[06/22 15:23:33     11s] @(#)CDS: Innovus v17.11-s080_1 (64bit) 08/04/2017 11:13 (Linux 2.6.18-194.el5)
+[06/22 15:23:33     11s] @(#)CDS: NanoRoute 17.11-s080_1 NR170721-2155/17_11-UB (database version 2.30, 390.7.1) {superthreading v1.44}
+[06/22 15:23:33     11s] @(#)CDS: AAE 17.11-s034 (64bit) 08/04/2017 (Linux 2.6.18-194.el5)
+[06/22 15:23:33     11s] @(#)CDS: CTE 17.11-s053_1 () Aug  1 2017 23:31:41 ( )
+[06/22 15:23:33     11s] @(#)CDS: SYNTECH 17.11-s012_1 () Jul 21 2017 02:29:12 ( )
+[06/22 15:23:33     11s] @(#)CDS: CPE v17.11-s095
+[06/22 15:23:33     11s] @(#)CDS: IQRC/TQRC 16.1.1-s215 (64bit) Thu Jul  6 20:18:10 PDT 2017 (Linux 2.6.18-194.el5)
+[06/22 15:23:33     11s] @(#)CDS: OA 22.50-p063 Fri Feb  3 19:45:13 2017
+[06/22 15:23:33     11s] @(#)CDS: SGN 10.10-p124 (19-Aug-2014) (64 bit executable)
+[06/22 15:23:33     11s] @(#)CDS: RCDB 11.10
+[06/22 15:23:33     11s] --- Running on cad29 (x86_64 w/Linux 2.6.32-754.el6.x86_64) (10cores*40cpus*Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz 25600KB) ---
+[06/22 15:23:33     11s] Create and set the environment variable TMPDIR to /tmp/innovus_temp_67138_cad29_b05069_crUgf3.
+
+[06/22 15:23:33     11s] Change the soft stacksize limit to 0.2%RAM (677 mbytes). Set global soft_stack_size_limit to change the value.
+[06/22 15:23:34     11s] 
+[06/22 15:23:34     11s] **INFO:  MMMC transition support version v31-84 
+[06/22 15:23:34     11s] 
+[06/22 15:23:34     11s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[06/22 15:23:34     11s] <CMD> suppressMessage ENCEXT-2799
+[06/22 15:23:34     12s] <CMD> getDrawView
+[06/22 15:23:34     12s] <CMD> loadWorkspace -name Physical
+[06/22 15:23:34     12s] <CMD> win
+[06/22 15:24:45     15s] <CMD> set ::TimeLib::tsgMarkCellLatchConstructFlag 1
+[06/22 15:24:45     15s] <CMD> set conf_ioOri R0
+[06/22 15:24:45     15s] <CMD> set defHierChar /
+[06/22 15:24:45     15s] <CMD> set distributed_client_message_echo 1
+[06/22 15:24:45     15s] <CMD> set distributed_mmmc_disable_reports_auto_redirection 0
+[06/22 15:24:45     15s] <CMD> set eco_post_client_restore_command {update_timing ; write_eco_opt_db ;}
+[06/22 15:24:45     15s] <CMD> set enc_enable_print_mode_command_reset_options 1
+[06/22 15:24:45     15s] **WARN: (IMPSYC-6163):	Command 'setDoAssign' is obsolete and will be made private and will be unsupported in future release. To avoid this warning, please remove the obsolete command from your script.
+[06/22 15:24:45     15s] <CMD> set init_assign_buffer 1
+[06/22 15:24:45     15s] <CMD> set init_gnd_net VSS
+[06/22 15:24:45     15s] <CMD> setImportMode -keepEmptyModule 1 -treatUndefinedCellAsBbox 0
+[06/22 15:24:45     15s] <CMD> set init_import_mode { -keepEmptyModule 1 -treatUndefinedCellAsBbox 0}
+[06/22 15:24:45     15s] <CMD> set init_lef_file {../library/lef/tsmc13fsg_8lm_cic.lef ../library/lef/tpz013g3_8lm_cic.lef ../library/lef/RF2SH64x16.vclef ../library/lef/antenna_8.lef}
+[06/22 15:24:45     15s] <CMD> set init_mmmc_file lcd_ctrl.view
+[06/22 15:24:45     15s] <CMD> set init_pwr_net VDD
+[06/22 15:24:45     15s] <CMD> set init_top_cell CONV
+[06/22 15:24:45     15s] <CMD> set init_verilog ../syn/CONV_syn.v
+[06/22 15:24:45     15s] <CMD> set latch_time_borrow_mode max_borrow
+[06/22 15:24:45     15s] <CMD> set pegDefaultResScaleFactor 1
+[06/22 15:24:45     15s] <CMD> set pegDetailResScaleFactor 1
+[06/22 15:24:45     15s] <CMD> set report_inactive_arcs_format {from to when arc_type sense reason}
+[06/22 15:24:45     15s] <CMD> set soft_stack_size_limit 80
+[06/22 15:24:45     15s] <CMD> set tso_post_client_restore_command {update_timing ; write_eco_opt_db ;}
+[06/22 15:24:47     15s] <CMD> init_design
+[06/22 15:24:47     15s] #% Begin Load MMMC data ... (date=06/22 15:24:47, mem=451.4M)
+[06/22 15:24:47     15s] **ERROR: (TCLCMD-989):	cannot open SDC file 'CONV_APR.sdc' for mode 'func_mode'
+[06/22 15:25:15     17s] **INFO (INTERRUPT): The current script will stop before next command.
+[06/22 15:25:15     17s] **INFO (INTERRUPT): One more Ctrl-C to exit Innovus ...
+[06/22 15:25:15     17s] Innovus terminated by user interrupt.
+[06/22 15:25:15     17s] 
+[06/22 15:25:15     17s] *** Memory Usage v#1 (Current mem = 522.695M, initial mem = 184.410M) ***
+[06/22 15:25:15     17s] 
+[06/22 15:25:15     17s] *** Summary of all messages that are not suppressed in this session:
+[06/22 15:25:15     17s] Severity  ID               Count  Summary                                  
+[06/22 15:25:15     17s] WARNING   IMPSYC-6163          1  Command '%s' is obsolete and will be mad...
+[06/22 15:25:15     17s] ERROR     TCLCMD-989           1  cannot open SDC file '%s' for mode '%s'  
+[06/22 15:25:15     17s] *** Message Summary: 1 warning(s), 1 error(s)
+[06/22 15:25:15     17s] 
+[06/22 15:25:15     17s] --- Ending "Innovus" (totcpu=0:00:17.1, real=0:01:57, mem=522.7M) ---

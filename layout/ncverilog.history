@@ -1,0 +1,1 @@
+s1(22Jun2019:18:58:48):  ncverilog testfixture.v ./layout/CONV_APR.v -v ./syn/tsmc13_neg.v +define+SDF +ncmaxdelays 

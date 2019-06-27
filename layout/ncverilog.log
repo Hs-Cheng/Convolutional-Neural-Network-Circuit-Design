@@ -1,0 +1,12 @@
+ncverilog: 15.20-s039: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+TOOL:	ncverilog	15.20-s039: Started on Jun 22, 2019 at 18:58:48 CST
+ncverilog
+	testfixture.v
+	./layout/CONV_APR.v
+	-v
+	./syn/tsmc13_neg.v
+	+define+SDF
+	+ncmaxdelays
+ncverilog: *E,FILEMIS: Cannot find the provided file testfixture.v.
+ncverilog: *E,FILEMIS: Cannot find the provided file ./layout/CONV_APR.v.
+TOOL:	ncverilog	15.20-s039: Exiting on Jun 22, 2019 at 18:58:48 CST  (total: 00:00:00)

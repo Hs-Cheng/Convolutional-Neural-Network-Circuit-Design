@@ -1,0 +1,202 @@
+ncverilog: 15.20-s039: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+TOOL:	ncverilog	15.20-s039: Started on Jun 23, 2019 at 22:40:51 CST
+ncverilog
+	testfixture.v
+	CONV.v
+file: testfixture.v
+	module worklib.testfixture:v
+		errors: 0, warnings: 0
+file: CONV.v
+	module worklib.CONV:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.CONV:v <0x487370f4>
+			streams:  50, words: 103806
+		worklib.testfixture:v <0x10bab4de>
+			streams:  29, words: 37194
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                  Instances  Unique
+		Modules:                  2       2
+		Registers:               59      59
+		Scalar wires:             5       -
+		Vectored wires:          24       -
+		Always blocks:            5       5
+		Initial blocks:          14      14
+		Cont. assignments:        1      18
+		Pseudo assignments:       3       3
+		Simulation timescale:  10ps
+	Writing initial simulation snapshot: worklib.testfixture:v
+Loading snapshot worklib.testfixture:v .................... Done
+*Verdi* Loading libsscore_ius152.so
+ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
+ncsim> run
+FSDB Dumper for IUS, Release Verdi_N-2017.12, Linux, 11/12/2017
+(C) 1996 - 2017 by Synopsys, Inc.
+*Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+*Verdi* : Create FSDB file 'CONV.fsdb'
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.L0_MEM0(116)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.L0_MEM1(116)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.L1_MEM0(116)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.L1_MEM1(116)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.L2_MEM(116)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.reset(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.clk(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.ready(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.cdata_rd(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.idata(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.p0(25)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.p1(25)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.p3(25)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.p4(25)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.p2(25)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.err00(25)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.err01(25)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.err10(25)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.err11(25)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.err2(25)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.pat_num(25)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.check0(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.check1(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.check2(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.cwr(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.crd(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.cdata_wr(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.csel(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.caddr_rd(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.caddr_wr(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.iaddr(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.busy(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.busy(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.iaddr(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.cwr(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.caddr_wr(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.cdata_wr(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.crd(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.caddr_rd(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.csel(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.indexx(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.indexy(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.sindex(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.state(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.buffer(116)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.string0(116)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.string1(116)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.l0temp1(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.l0temp2(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.l0temp3(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.l0temp4(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.center(116)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.l0addr(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.l1addr(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.l2addr(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.temp0(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.temp1(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.write0(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.i(25)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.j(25)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.k(25)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.clk(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.reset(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.ready(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.idata(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.cdata_rd(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.filter1(114)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.filter2(114)
+*Verdi* : End of traversing.
+*Verdi* : Begin traversing the MDAs, layer (0).
+*Verdi* : Enable +mda and +packedmda dumping.
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.L0_MEM0(116)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.L0_MEM1(116)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.L1_MEM0(116)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.L1_MEM1(116)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.L2_MEM(116)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.reset(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.clk(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.ready(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.cdata_rd(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.idata(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.p0(25)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.p1(25)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.p3(25)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.p4(25)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.p2(25)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.err00(25)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.err01(25)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.err10(25)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.err11(25)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.err2(25)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.pat_num(25)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.check0(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.check1(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.check2(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.cwr(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.crd(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.cdata_wr(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.csel(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.caddr_rd(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.caddr_wr(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.iaddr(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.busy(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.busy(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.iaddr(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.cwr(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.caddr_wr(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.cdata_wr(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.crd(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.caddr_rd(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.csel(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.indexx(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.indexy(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.sindex(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.state(48)
+*Verdi* WARNING: The above messages are printed 50 times. No more similar message will be printed out.
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.buffer(116)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.string0(116)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.string1(116)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.l0temp1(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.center(116)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.i(25)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.j(25)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.k(25)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.clk(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.reset(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.ready(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.idata(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.cdata_rd(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.filter1(114)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_CONV.filter2(114)
+*Verdi* : End of traversing the MDAs.
+-----------------------------------------------------
+
+START!!! Simulation Start .....
+
+-----------------------------------------------------
+
+Layer 0 (Convolutional Output) with Kernel 0 is correct !
+Layer 0 (Convolutional Output) with Kernel 1 is correct!
+Layer 1 (Max-pooling Output) with Kernel 0 is correct!
+Layer 1 (Max-pooling Output) with Kernel 1 is correct!
+Layer 2 (Flatten  Output) is correct!
+ 
+-----------------------------------------------------
+
+--------------------- S U M M A R Y -----------------
+
+Congratulations! Layer 0 data have been generated successfully! The result is PASS!!
+
+Congratulations! Layer 1 data have been generated successfully! The result is PASS!!
+
+Congratulations! Layer 2 data have been generated successfully! The result is PASS!!
+
+-----------------------------------------------------
+
+Simulation complete via $finish(1) at time 350681800 PS + 0
+./testfixture.v:268       #(`CYCLE/2); $finish;
+ncsim> exit
+TOOL:	ncverilog	15.20-s039: Exiting on Jun 23, 2019 at 22:40:54 CST  (total: 00:00:03)
